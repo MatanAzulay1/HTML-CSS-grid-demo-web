@@ -1,0 +1,173 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+
+}
+
+* {
+    font-family: 'Oswald',
+        sans-serif;
+    box-sizing: border-box;
+
+}
+
+.col-12 {
+    float: left;
+
+    width: 100%;
+
+    padding: 1px;
+}
+
+.col-6 {
+    float: left;
+
+    width: 50%;
+
+    padding: 1px;
+}
+
+
+.col-10 {
+    float: left;
+
+    width: 83.33%;
+
+    padding: 1px;
+
+
+}
+
+.col-1 {
+    float: left;
+
+    width: 8.33%;
+
+    padding: 1px;
+
+
+}
+
+.col-4 {
+    float: left;
+
+    width: 25%;
+
+    padding: 1px;
+
+
+}
+
+.col-3 {
+    float: left;
+
+    width: 33.33%;
+
+    padding: 1px;
+
+
+}
+
+.col-5 {
+    float: left;
+
+    width: 41.66%;
+
+    padding: 1px;
+
+
+}
+
+.col-2 {
+    float: left;
+
+    width: 16.66%;
+
+    padding: 1px;
+
+
+}
+
+
+
+.row::after {
+
+    content: "";
+
+    clear: both;
+
+    display: table;
+
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+
+}
+
+.nav {
+
+    background-color: black;
+    height: 30px;
+    position: sticky;
+    top: 0;
+    color: rgb(247, 247, 247);
+
+}
+
+
+
+div.scroll {
+
+    background-color: #eee;
+    width: 200px;
+    height: 70px;
+    border: 1px dotted black;
+    overflow: auto;
+
+}
+
+div.container2 {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+div.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+img.opacity {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    margin: auto;
+
+}
+
+.navbar div:hover {
+    background-color: red;
+}
+
+img.flot {
+    float: left;
+}
+
+div.footer {
+    position: fixed;
+
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #eee;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+
+
+}
